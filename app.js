@@ -27,7 +27,7 @@ const getFact = async () => {
             },
         });
         fact.textContent = response.data[0].fact + ".";
-        console.log(response.data[0].fact);
+        // console.log(response.data[0].fact);
     } catch (error) {
         console.log(error);
     }
